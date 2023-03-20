@@ -2,9 +2,20 @@ package ra.bussinessImp;
 
 import ra.bussiness.IShop;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Book implements IShop {
+    private ArrayList<Author> authors;
+
+    public ArrayList<Author> getAuthors() {
+        return authors;
+    }
+
+    public void setAuthors(ArrayList<Author> authors) {
+        this.authors = authors;
+    }
+
     private int bookId;
     private String bookName;
     private String title;
@@ -122,6 +133,16 @@ public class Book implements IShop {
         quantity = scanner.nextInt();
         System.out.println("Book Status: ");
         bookStatus = scanner.nextBoolean();
+        System.out.println("Chọn tác giả: ");
+        for (int i = 0; i < getAuthors().size(); i++) {
+            getAuthors().get(i).displayData();
+        }
+        int num = scanner.nextInt();
+        for (int i = 0; i < getAuthors().size(); i++) {
+            if (num == i+1){
+                setAuthor(getAuthors().get(i));
+            }
+        }
     }
 
     @Override
@@ -132,11 +153,5 @@ public class Book implements IShop {
         System.out.println("Export Price: " + exportPrice());
         System.out.println("Book quantity: " + quantity);
         System.out.println("Book Status: " + bookStatus);
-    }
-
-    public static void main(String[] args) {
-        Book book = new Book();
-        book.inputData();
-        book.displayData();
     }
 }

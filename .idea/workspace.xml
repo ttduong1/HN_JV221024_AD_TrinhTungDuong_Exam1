@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8465c39-bd31-4357-89df-d93f01096c98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HN_JV221024_AD_TrinhTungDuong_Exam1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bussiness/IShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bussinessImp/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/bussinessImp/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ra/bussinessImp/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/bussinessImp/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ra/run/BookManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/run/BookManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +34,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java10f/module3/HN_ JV221024_AD_TrinhTungDuong",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java10f/module3/HN_JV221024_AD_TrinhTungDuong_Exam1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ra" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.BookManagement">
+    <configuration name="Author" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.bussinessImp.Author" />
+      <module name="HN_JV221024_AD_TrinhTungDuong_Exam1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ra.bussinessImp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.bussinessImp.Book" />
+      <module name="HN_JV221024_AD_TrinhTungDuong_Exam1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ra.bussinessImp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.run.BookManagement" />
+      <module name="HN_JV221024_AD_TrinhTungDuong_Exam1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ra.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookManagement" />
+        <item itemvalue="Application.Book" />
+        <item itemvalue="Application.Author" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679303331248</updated>
       <workItem from="1679303332386" duration="648000" />
+      <workItem from="1679304009803" duration="307000" />
+      <workItem from="1679305921520" duration="1609000" />
     </task>
     <servers />
   </component>
